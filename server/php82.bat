@@ -1,0 +1,1 @@
+@"D:\Code\php-multi\php\php-8.2.8\php.exe" %*
