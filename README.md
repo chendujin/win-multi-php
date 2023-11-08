@@ -43,11 +43,12 @@ php81 -v
 php82 -v
 
 # 查看是否安装某个配置
-php -m|grep swoole
+php -m|grep mbstring
 
 # 查看某项具体配置信息
 php -i|grep disable_functions
 
 # 查看某个扩展具体信息
-php --ri swoole 
+php --ri mbstring 
 ```
+> 另：每个版本的扩展都是默认的官方扩展，对一些复杂项目来说可能不够，可自行网上搜索要配置的ddl文件放置在`ext`文件夹下，并添加相应的配置到`php.ini`文件中。
